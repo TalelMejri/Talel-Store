@@ -1,0 +1,44 @@
+@media screen and (min-width:500px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 5fr;
+        height: 100%;
+        width: 100%;
+    }
+    form{
+        width: 500px;
+    }
+    input{
+        margin-left: 10px;
+    }
+    label{
+        margin-left: 5px;
+    }
+    .row1{
+        padding-top: 35px;
+       display: grid;
+        grid-row-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .row3{
+        display: grid;
+         grid-row-gap: 10px;
+         grid-template-columns: 1fr 1fr;
+    }
+    .image{
+        text-align: center;
+        margin-top: -10px;
+        margin-left: 75px;
+    }
+    .row4{
+        margin-left: 120px;
+    }
+    h1{
+        font-size: 20px;
+        font-family: fantasy;
+        margin-top: 25px;
+        text-align: center;
+    }
+    
+}

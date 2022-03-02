@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../image/LOGO2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="./css/styleup.css">
+    <link rel="stylesheet" href="./css/smallup.css">
+    <link rel="stylesheet" href="./css/mediumup.css">
+    <link rel="stylesheet" href="./css/largeup.css">
+    <title>Create An Account</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="../image/LOGO3.jpg" alt="">
+            </div>
+             <div class="nav">
+                  <nav>
+                      <ul>
+                          <li><a href="../index.html">Home</a></li>
+                          <li><a href="../Magazin/Magazin.html">Magazin</a></li>
+                          <li><a href="../Magazin/freegames.html">Free Games</a></li>
+                          <li><a href="../Magazin/paimentgames.html">Premium Games</a></li>
+                      </ul>
+                  </nav>
+             </div>
+        </header>
+      <section>
+          <div>
+            <h1>CREATE YOUR ACCOUNT <br>It's Free and only take a minute</h1></div>
+            <div class="griid">
+           <form action="action.php" method="post">
+               <div>
+                <label for="nom">First Name:</label>
+                <input type="text" id="nom" name="nom" placeholder="Enter your name" required>
+                </div>
+                <div>
+                <label for="prenom">Last Name:</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Enter your Family Name" required>
+            </div>
+               <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="YourName@gmail.com" required>
+                </div>
+                <div>
+                <label for="pays">Country:</label>
+                <select name="pays" >
+                    <option value="tunise">Tunisie</option>
+                    <option value="Canada">Canada</option>
+                    <option value="France">France</option>
+                    <option value="italy">Italy</option>
+                    <option value="Russia">Russia</option>
+                    <option value="sweden">Sweden</option>
+                    <option value="Germany">Germany</option>
+                    <option value="bresil">Bresil</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Ireland">Ireland</option>
+                </select>
+            </div> 
+                <div>
+                <label for="password">Password : </label>
+                <input type="password" name="pass" id="password" placeholder="enter Your pasword">
+            </div>
+                <div>
+                <label for="cpassword">Confirm Password : </label>
+                <input type="password" name="pass" id="cpassword" placeholder="confirm your pasword">     
+            </div>
+            <div>
+                <label for="date">date of birth :</label>
+                <input type="date" name="date" id="date">
+            </div>
+                <div>
+                 <label for="question">How Much you like Games :</label>
+                 <input type="range">
+                </div>
+             <button >Registre Now</button>
+           </form>
+        </div>
+          <div id="already"> <p>Alreday have an account?<a href="../log in/login.html">Login in</a> </p></div> 
+      </section>
+      <footer>
+        <small>© 2021 Works Limited. All Rights Reserved.</small>
+   </footer>
+    </div>
+</body>
+</html>

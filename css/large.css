@@ -1,0 +1,134 @@
+@media screen and (min-width:750px){
+    .container{
+        height: 100%;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 5fr 2fr;
+    }
+    header,footer,section{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    nav ul{
+       display: grid;
+       grid-template-columns:20% 20% 20% 20%;
+       height: 100%;
+    }
+    nav ul li a{
+        color: #000;
+        font-family: sans-serif;
+        font-weight: bolder;
+        opacity: 1;
+        width: 88%;
+    }
+    footer{
+        color: #fff;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 4fr 1fr;
+    }
+    footer .copy{
+        grid-column-start: 1;
+        grid-column-end: 4;
+         padding-top: 30px;
+    }
+    .message h2{
+        margin-top: -34px;
+    }
+    .message {
+        margin-left: -1px;
+        margin-top: 50px;
+    }
+    #social_media{
+        margin-left: -70px;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    section{
+        background-image: url(../image/Background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+    }
+    #social_media a{
+        padding-right: 15px;
+        padding-top: 20px;
+        display: block;
+    }
+    header{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    .logo{
+     margin-left:40px;
+     margin-top:15px;
+    }
+    .logo img{
+        width: 80px;
+        height: 80px;
+    }
+    .welcome{
+        text-align: center;
+        position: absolute;
+        margin-top: 40px;
+    } 
+    .copy img{
+        border-radius: 20px;
+        position: absolute;
+        margin-left: 300px;
+        margin-top: -10px;
+      }
+      .about{
+          margin-left: 30px;
+      }
+      .follow h2{
+        margin-left: -90px;
+    }
+    .about h2{
+        margin-left: -1px;
+    }
+    .message h2{
+        margin-left: 60px;
+    }
+      .follow{
+          margin-left: 50px;
+          margin-top: 7px;
+      }
+      .store{
+        font-family:'Times New Roman', Times, serif;
+         margin-top: 100px;
+         margin-left: 10px;
+         color: lightblue;
+         font-size: 40px;
+    }
+    
+    .store::selection{
+        background-color: lightcoral;
+    }
+    section article{
+        position: relative;
+    }
+      .browe{
+        margin-top: 28px;
+        text-align: center;
+    }
+    .time{
+       opacity: 1;
+       margin-top: 20px;
+       margin-left: 300px;
+    }
+    .time input{
+       background: transparent;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+    }
+    .time input:hover{
+        background: #fff;
+        color:blue;
+    }
+}

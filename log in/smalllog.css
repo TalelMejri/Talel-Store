@@ -1,0 +1,152 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 7fr 5% ;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+ul {
+    display: grid;
+    grid-row-gap: 30px;
+    margin-top: 50px;
+}
+ul li a{
+    text-decoration: none;
+    color: #040f20;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+nav ul li:active{
+    transform: scale(1.5);
+}
+form{
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 60px;
+    justify-items: center;
+}
+body{
+    background-image: url(./img/wp1890443.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+form{
+    box-shadow: 5px 5px 5px 2px #000;
+    padding: 50px 25px;
+    border-radius: 25px;
+    width: 280px;
+    margin-top: 70px;
+    background:transparent;
+}
+input{
+    width: 90%;
+    border: none;
+    margin-top: 15px;
+    height: 20px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #050828;
+    font-size: 16px;
+}
+label{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+}
+button{
+    margin-top: 15px;
+    width: 60%;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    background: #9195b8;
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    cursor: pointer;
+    background:#000 ;
+    color: #9195b8;
+    border-style: inset;
+}
+.p{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.p .para p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1f4a75;
+    text-shadow: 2px 2px 2px #fff;
+}
+h1{
+    font-family: monospace;
+    content: '';
+    animation:animate infinite 17s;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+@keyframes animate {
+    10%{
+        color: #072a4b;
+    }
+    30%{
+      
+        color:#0c3b66;
+    }
+    40%{
+        color:#4e6ebe ;
+    }
+    60%{
+     color:#1e5690 ;   
+    }
+    80%{
+        color:#040f20 ;
+    }
+    90%{
+        color: #092e3d
+
+    }
+    100%{
+        color:#050828 ;
+    }
+}
+section{
+    padding-top: 70px;
+}
+.wrapper a p{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+.butt {
+    margin-left: -50px;
+    margin-top: 10px;
+}
+.vid video{
+    width: 260px;
+    height: 200px;
+    border:none;
+}
+

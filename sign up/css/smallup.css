@@ -1,0 +1,98 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 6fr 5% ;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+ul {
+    display: grid;
+    grid-row-gap: 30px;
+    margin-top: 50px;
+}
+ul li a{
+    text-decoration: none;
+    color: #040f20;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    font-weight: bolder;
+}
+nav ul li:active{
+    transform: scale(1.5);
+}
+ h1{
+     margin-top: 100px;
+     font-size: 28px;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     font-weight: bolder;
+ }
+ p{
+     font-size: 19px;
+     margin-top: 15px;
+     text-align: center;
+ }
+ form {
+    padding-top: 15px;
+    transform: translate(-50%,-50%);
+    top: 140%;
+    left: 50%;
+    width: 250px;
+    position: absolute;
+    height: 600px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 5px #000;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-row-gap: 15px;
+}
+input{
+    width: 90%;
+    border: none;
+    margin-top: 15px;
+    height: 20px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+}
+label{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 19px;
+    margin-left: 15px;
+}
+button{
+    margin-top: 15px;
+    margin-left: 70px;
+    width: 60%;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    background: #9195b8;
+    color: #040f20;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(../img/wp1890443.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+button:hover{
+    cursor: pointer;
+    background:#000 ;
+    color: #9195b8;
+    border-style: inset;
+}
+#already{
+    margin-top: 750px;
+}

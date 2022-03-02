@@ -1,0 +1,61 @@
+@media screen and (min-width:540px){
+  .container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2% 3% 6fr 8%;
+}
+  table{
+      height: 80%;
+  } 
+  .img {
+    display: inline-block;
+  }
+  .img img{
+    width: 150px;
+    height:200px;
+  }
+  .menu{
+    display: grid;
+    grid-template-columns:1fr;
+    justify-items: center;
+    margin-top: 40px;
+  }
+  nav ul{
+    margin-left: 30px;
+}
+.content{
+  margin-left: -20px;
+}
+.cadre{
+  margin-left: -80px;
+}
+
+.content a:hover{
+  border-bottom: 1px solid red;
+  color: #fff;
+}
+.game .cadre{
+  width: 40px; 
+}
+.game{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap:1px;
+}
+h4{
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.image img{
+  width: 255px; 
+}
+input{
+  margin-left: 80px;
+}
+
+}

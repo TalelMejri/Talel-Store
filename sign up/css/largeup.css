@@ -1,0 +1,59 @@
+@media screen and (min-width:800px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 10fr 3%;
+        height: 100%;
+        width: 100%;
+    }
+    h1{
+        margin-top: 130px;
+    }
+    form {
+        padding-top: 15px;
+        transform: translate(-50%,-50%);
+        top: 98%;
+        left: 50%;
+        width: 800px;
+        position: absolute;
+        height: 450px;
+        border-radius: 25px;
+        box-shadow: 2px 2px 2px 5px #000;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 60px;
+    }
+    body{
+        background-image: url(../img/wp1890443.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    ul{
+       display: flex;
+   }
+   ul li a{
+       padding: 0 40px;
+       border: none;
+   }
+   ul li a:hover{
+       transform: scale(1.5);  
+   }
+   label{
+       margin-top: 10px;
+   }
+   input{
+       width: 280px;
+   }
+   #already{
+       margin-top: 614px;
+   }
+   button{
+    width: 50%;
+    height: 40%;
+    margin-left: 350px;
+   }
+   footer {
+       margin-top: -15px;
+   }
+}

@@ -1,0 +1,36 @@
+@media screen and (min-width:450px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 5fr 3%;
+        height: 100%;
+        width: 100%;
+    }
+    form {
+        padding-top: 15px;
+        transform: translate(-50%,-50%);
+        top: 120%;
+        left: 50%;
+        width: 400px;
+        position: absolute;
+        height: 450px;
+        border-radius: 25px;
+        box-shadow: 2px 2px 2px 5px #000;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 15px;
+    }
+    button{
+        margin-top: 15px;
+        margin-left: 150px;
+    }
+    body{
+        background-image: url(../img/wp1890443.jpg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    #already{
+        margin-top:550px;
+    }
+}

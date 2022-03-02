@@ -1,0 +1,125 @@
+.container{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 3fr;
+}
+header{
+    display: grid;
+    grid-template-columns:1fr;
+}
+nav ul{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 25px;
+    width: 90%;
+    padding-top: 50px;
+    margin-left: 13px;
+}
+nav ul li{
+    display: block;
+}
+nav ul li a{
+    color: #000;
+    font-family: sans-serif;
+    font-weight: bolder;
+    opacity: 1;
+    background:#fff;
+    display: inline-block;
+    width: 90%;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+nav ul li a:hover{
+    background: #2A475E;
+    opacity:0.5;
+    color: #000;
+  }
+.logo{
+    margin-top: 10px;
+    justify-self: center;
+}
+.logo img{
+    border-radius: 20px;
+    border: 1px solid #000;
+    width: 80px;
+    height: 80px;
+}
+.welcome{
+    justify-self: center;
+    font-family: sans-serif;
+    color: #fff;
+}
+.follow h2{
+    border-bottom: 1px solid red;
+    margin-left: -70px;
+    display: inline-block;
+}
+.about h2{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 6px;
+    border-bottom: 1px solid red;
+    display: inline-block;
+}
+.message h2{
+    margin-left: 5px;
+    margin-top: -10px;
+    position: absolute;
+    border-bottom: 1px solid red;
+    display: inline-block;
+}
+#social_media{
+    margin-left: 7px;
+    font-size: 20px;
+    margin-top: 50px;  
+}
+#social_media a{
+    padding-right: 15px; 
+    display: inline-block;
+}
+footer{
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 2fr 10%;
+    justify-items: center;
+    justify-content: space-around;
+    grid-row-gap: 10px;
+}
+.copy img{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -60px;  
+}
+.time{
+    opacity: 0;
+}
+.store{
+    font-family:  sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: lightblue;
+}
+.browe{
+    margin-top: 258px;
+    margin-left: 20px;
+    text-align: center;
+}
+.browe p{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.browe img{
+    margin-left: 40px;
+}
+.about{
+    margin-left: 10px;
+}
+

@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+}
+.logo{
+    text-align: center;
+    margin-top: 10px;
+}
+footer{
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+

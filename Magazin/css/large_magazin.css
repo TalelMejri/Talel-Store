@@ -1,0 +1,160 @@
+@media screen and (min-width:750px){
+     .container{
+         height: 100%;
+         width: 100%;
+         display: grid;
+         grid-template-columns: 15% 4fr;
+         grid-template-rows: 4% 9fr 10%;
+     }
+     header{
+        display: grid;
+        grid-template-columns:  1fr 2fr;
+    }
+     header,footer{
+         grid-column-start: 1;
+         grid-column-end: 4;
+     }
+     nav ul{
+        text-align:left;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+        width: 120%;
+        padding-top: 50px;
+        margin-left: 15px;
+    }
+     nav ul li a{
+        color: #000;
+        font-family: sans-serif;
+        font-weight: bolder;
+        opacity: 1;
+        background:#fff;
+        display: inline-block;
+        width: 70%;
+        padding: 10px 25px;
+        border-radius: 20px;
+    }
+    .img img{
+        width: 280px;
+        height:400px;
+      }
+    .logo{
+    margin-top:7px;
+   }
+   .logo img{
+       width: 80px;
+       height: 80px;
+       margin-top: 10px;
+   }
+   .welcome{
+       text-align: center;
+       position: absolute;
+       margin-top: 40px;
+   } 
+   footer{
+    color: #fff;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 4fr 1fr;
+}
+footer .copy{
+    grid-column-start: 1;
+    grid-column-end: 4;
+     padding-top: 30px;
+}
+.message h2{
+    margin-top: -34px;
+}
+.message {
+    margin-left: -1px;
+    margin-top: 50px;
+}
+#social_media{
+    margin-left: -70px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+#social_media a{
+    padding-right: 15px;
+    padding-top: 20px;
+    display: block;
+}
+.about{
+    margin-left: 30px;
+}
+.follow h2{
+  margin-left: -90px;
+}
+.about h2{
+  margin-left: -1px;
+}
+.message h2{
+  margin-left: 60px;
+}
+.follow{
+    margin-left: 50px;
+    margin-top: 7px;
+}
+table{
+    margin-top: 50px;
+    width: 93%;
+   margin-left: 35px;
+   height: 40%;
+}
+table tr td{
+    padding-top: 10px;
+}
+caption h1{
+    font-size: 35px;
+}
+.img{
+    display: inline-block;
+}
+.menu{
+    margin-top: 90px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2px;
+}
+.content a:hover{
+    border-bottom: 1px solid red;
+    color: #fff;
+}
+.content{
+    margin-left: -3px;
+}
+.image img{
+    width: 100%; 
+}
+.game .carde{
+    width: 80%;
+    margin-top: 20px;
+  }
+  h4{
+      font-size: 40px;
+      text-align: center;
+      font-weight: bolder;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+.game{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap:1px;
+}
+.content a{
+    color: #c31067;
+    font-size: 20px;
+}
+nav ul i{
+    margin-left: 235px;
+    margin-top: 205px;
+ }
+ input{
+    margin-left: 1px;
+ }
+
+}

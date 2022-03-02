@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../image/LOGO2.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/stylebuy.css">
+    <link rel="stylesheet" href="./css/smallbuy.css">
+    <link rel="stylesheet" href="./css/mediumbuy.css">
+    <link rel="stylesheet" href="./css/largebuy.css">
+    <title>Buy Now</title>
+</head>
+<body>
+    <div class="container">
+         <header>
+            <h1> Confirm Your Payment</h1>
+                <div id="precedent">
+                      <a href="../paimentgames.html"> <img src="./img/precendent.png" alt="precendent" width="40px" height="40px"></a>
+                </div>
+         </header>
+     <section>
+        <form action="action.php" method="post">
+            <div id="logo">
+                <img src="../image/LOGO2.jpg" alt="logo for talel store" width="60px" height="60px">
+            </div>
+              <div class="row1">
+                  <div>
+                  <label for="owner">Owner :</label>
+                  <input type="text" name="name" id="owner" placeholder="" required>
+                  </div>
+                  <div>
+                <label for="cvv">CVV :</label>
+                <input type="text" name="cvv" id="cvv" required>
+                  </div>
+              </div>
+              <div class="row2">
+                  <label for="nbcard">Card Number :</label>
+                  <input type="password" name="number" id="nbcard" required>
+              </div>
+              <div class="row3">
+                  <div>
+                      <span>
+                    <label for="month">Month:</label>
+                    <select name="month">
+                      <option selected>January</option>
+                      <option>February</option>
+                      <option>March</option>
+                      <option>April</option>
+                      <option>May</option>
+                      <option>June</option>
+                      <option>July</option>
+                      <option>August</option>
+                      <option>September</option>
+                      <option>October</option>
+                      <option>November</option>
+                      <option>December</option>
+                    </select>
+                  </span>
+                  <span>
+                    <label for="year">Year:</label>
+                    <select id="year" name="year">
+                        <option>2022</option>
+                        <option>2021</option>
+                        <option selected>2020</option>
+                        <option>2019</option>
+                        <option>2018</option>
+                        <option>2017</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                    </select>
+                  </div>
+                  <div class="image" >
+                      <img src="./img/MasterCard_Logo.svg.png" alt=" image for master card" width="40px" height="40px">
+                      <img src="./img/paypal-wordpress-logo.png" alt="logo for paypal"  width="40px" height="40px">
+                      <img src="./img/carte_e-dinar_jeune.jpg" alt="logo for edinar jeune" width="40px" height="40px">
+                  </div>
+              </div>
+              <div class="row4">
+                <button>Confirm</button>
+            </div>  
+            </form> 
+</section>
+</div>
+</body>
+</html>

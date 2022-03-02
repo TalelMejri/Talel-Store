@@ -1,0 +1,195 @@
+*{
+  box-sizing: border-box;
+}
+header{
+    background-image:url(../image/Background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+     color: white;
+}
+.welcome{
+    font-size: 25px;
+    box-shadow: 0 10px 6px -6px #777;
+}
+a{
+    text-decoration: none;
+}
+table,td,tr{
+  border:2px solid #cc2366;
+}
+section{
+  color:#777;
+}
+nav{
+    background-image:url(../image/Background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+  }
+.welcome h1{
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: lightblue;
+}
+h1 span:before{
+    content:'';
+    animation:animate infinite 8S;
+}
+@keyframes animate{
+   0%{
+    content:  'TO';
+   }
+   20%{
+     content: 'BEST ';
+   }
+   40%{
+     content: 'GAMES ';
+   }
+   60%{
+     content: ' STORE ';
+   }
+}
+section{
+    background-image: url(../image/4k-Gaming-Wallpaper-Computer-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+
+}
+footer{
+    background-color: #000;
+    background-position: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about a{
+    color: #fff;
+}
+.copy{
+    background-image: url(../image/76f8fc6bab9cfb18a51cf77d582c02d4.jpg);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+#social_media {
+ margin-top: 15px;
+ margin-left: -80px;
+}
+td a{
+  color: #fff;
+}
+.message button{
+    margin-left: 90px;
+    background-color: #cc2366;
+    border-radius: 25px;
+    padding:10px 25px;
+    font-size: 18px;
+    color: #fff;
+    border-style: outset;
+    cursor: pointer;
+    }
+    .message button:active{
+      color: #cc2366;
+      background-color:#fff ;
+      border-style: inset;
+    }
+   #social_media a:first-child{
+     color: blue;
+   }
+   #social_media a:nth-last-child(2){
+     color: red;
+   }
+  #social_media a:last-child{
+    color: #f09433; 
+    color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+  .about h2,.follow h2,.message h2{
+    font-family: sans-serif;
+  }
+  .img img{
+    border: 1px solid #000;
+    box-shadow:5px 5px 5px #000;
+    border-radius: 10px;
+  }
+  .img img:hover{
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+  .game .carde{
+    background-color: #fff;
+  }
+  .game .text{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row-gap: 10px;
+  }
+  .game .carde .rating .fa {
+    color: yellow;
+  }
+  .game .carde .rating .fa.grey{
+    color: grey;
+  }
+  .butt button{
+   background: green;
+   color: #fff;
+   border: none;
+   padding: 10px 25px;
+   border-style: outset;
+   cursor: pointer;
+
+  }
+  .butt button:active{
+    background: #fff;
+    color: green;
+    border-style: inset;
+    cursor: pointer;
+
+  }
+  .game .carde {
+    border: 1px solid #000;
+    box-shadow:5px 5px 5px #000;
+    border-radius: 10px;
+  }
+  .carde:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+  }
+  .solde a{
+    background-color: aqua;
+    padding: 4px 4px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: 1px solid grey;
+    border-style:double;
+    margin-left: -25px;
+  }
+  .bonus{
+    font-size: 17px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 35px;
+    margin-top: -5px;
+  }
+  .bonus p{
+    color: green;
+  }
+  .prix{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  nav ul input{
+    width: 70%;
+    border-radius: 20px;
+    height: 30px;
+  }
+  nav ul i{
+    position: absolute;
+    margin-top: -70px;
+  }
+  
